@@ -3,8 +3,8 @@ title: "Контакты"
 description: "Как со мной связаться"
 ---
 
-**Telegram:** @globaby3  
-**WhatsApp:** +7 983 265-94-34  
+**Telegram:** @banditka777  
+**WhatsApp:** +7 777 777-77-77 
 **Email:** alina@example.com  
 **Instagram:** @fhfhfhf
 
