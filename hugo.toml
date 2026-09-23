@@ -1,0 +1,40 @@
+baseURL = 'https://glina-shedevry.pages.dev/'
+languageCode = 'ru'
+title = 'Глиняные шедевры'
+theme = "PaperMod"
+
+# Настройки PaperMod
+[params]
+  author = "Алина"
+  description = "Ручная лепка из глины: фигурки, посуда, декор. Работы на заказ."
+  defaultTheme = "auto"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowToc = false
+  mainSections = ["posts"]
+  homeInfoParams = { Title = "Глиняные шедевры", Content = "Добро пожаловать в мастерскую ручной лепки. Здесь рождаются фигурки, посуда и декор из глины — каждый со своей историей." }
+
+[params.social]
+  # Заполним позже — Telegram, Instagram и т.д.
+
+[menu]
+  [[menu.main]]
+    name = "Работы"
+    url = "/works/"
+    weight = 10
+  [[menu.main]]
+    name = "О мастере"
+    url = "/about/"
+    weight = 20
+  [[menu.main]]
+    name = "Контакты"
+    url = "/contacts/"
+    weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
